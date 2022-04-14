@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-14T22:08:27 EEST" name="Course_Work" finished-at="2022-04-14T22:09:39 EEST" duration-ms="71791">
+    <groups>
+    </groups>
+    <test started-at="2022-04-14T22:08:27 EEST" name="CheckOut" finished-at="2022-04-14T22:08:50 EEST" duration-ms="22768">
+      <class name="qa.automation.CheckOut">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.automation.CheckOut@7f010382]" started-at="2022-04-14T22:08:27 EEST" name="setUp" finished-at="2022-04-14T22:08:43 EEST" duration-ms="16007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="successfulLoginTest(java.lang.String,java.lang.String)[pri:0, instance:qa.automation.CheckOut@7f010382]" started-at="2022-04-14T22:08:43 EEST" name="successfulLoginTest" data-provider="userCsv" finished-at="2022-04-14T22:08:49 EEST" duration-ms="5444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.automation.CheckOut@7f010382]" started-at="2022-04-14T22:08:49 EEST" name="tearDown" finished-at="2022-04-14T22:08:50 EEST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.automation.CheckOut -->
+    </test> <!-- CheckOut -->
+    <test started-at="2022-04-14T22:08:27 EEST" name="AddToCart" finished-at="2022-04-14T22:09:38 EEST" duration-ms="70729">
+      <class name="qa.automation.AddToCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.automation.AddToCart@d83da2e]" started-at="2022-04-14T22:08:27 EEST" name="setUp" finished-at="2022-04-14T22:08:45 EEST" duration-ms="17361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addItemToTheCart()[pri:0, instance:qa.automation.AddToCart@d83da2e]" started-at="2022-04-14T22:08:45 EEST" name="addItemToTheCart" finished-at="2022-04-14T22:08:47 EEST" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToTheCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.automation.AddToCart@d83da2e]" started-at="2022-04-14T22:08:47 EEST" name="tearDown" finished-at="2022-04-14T22:08:50 EEST" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.automation.AddToCart@d83da2e]" started-at="2022-04-14T22:08:50 EEST" name="setUp" finished-at="2022-04-14T22:09:10 EEST" duration-ms="19477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectDifferentOrder()[pri:0, instance:qa.automation.AddToCart@d83da2e]" started-at="2022-04-14T22:09:10 EEST" name="selectDifferentOrder" finished-at="2022-04-14T22:09:13 EEST" duration-ms="3172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDifferentOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.automation.AddToCart@d83da2e]" started-at="2022-04-14T22:09:13 EEST" name="tearDown" finished-at="2022-04-14T22:09:38 EEST" duration-ms="25238" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to stop.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-I9CM7OT', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [288be9fa3dd941211c4a207687a47e2e, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Zhekov\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57137/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 288be9fa3dd941211c4a207687a47e2e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-I9CM7OT', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [288be9fa3dd941211c4a207687a47e2e, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Zhekov\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57137/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 288be9fa3dd941211c4a207687a47e2e
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:463)
+at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:293)
+at base.TestUtil.tearDown(TestUtil.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:772)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:748)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-I9CM7OT', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
+... 34 more
+Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-I9CM7OT', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:174)
+at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:114)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:122)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.automation.AddToCart -->
+    </test> <!-- AddToCart -->
+    <test started-at="2022-04-14T22:08:27 EEST" name="SuccessfulLogin" finished-at="2022-04-14T22:09:39 EEST" duration-ms="71775">
+      <class name="qa.automation.SuccessfulLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.automation.SuccessfulLogin@1ffe63b9]" started-at="2022-04-14T22:08:27 EEST" name="setUp" finished-at="2022-04-14T22:08:44 EEST" duration-ms="16736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SuccessfulLoginTest(java.lang.String,java.lang.String)[pri:0, instance:qa.automation.SuccessfulLogin@1ffe63b9]" started-at="2022-04-14T22:08:44 EEST" name="SuccessfulLoginTest" data-provider="csvUserList" finished-at="2022-04-14T22:08:47 EEST" duration-ms="2398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.automation.SuccessfulLogin@1ffe63b9]" started-at="2022-04-14T22:08:47 EEST" name="tearDown" finished-at="2022-04-14T22:08:50 EEST" duration-ms="3522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.automation.SuccessfulLogin@1ffe63b9]" started-at="2022-04-14T22:08:50 EEST" name="setUp" finished-at="2022-04-14T22:09:03 EEST" duration-ms="12486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SuccessfulLoginTest(java.lang.String,java.lang.String)[pri:0, instance:qa.automation.SuccessfulLogin@1ffe63b9]" started-at="2022-04-14T22:09:03 EEST" name="SuccessfulLoginTest" data-provider="csvUserList" finished-at="2022-04-14T22:09:04 EEST" duration-ms="926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.automation.SuccessfulLogin@1ffe63b9]" started-at="2022-04-14T22:09:04 EEST" name="tearDown" finished-at="2022-04-14T22:09:15 EEST" duration-ms="11547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.automation.SuccessfulLogin@1ffe63b9]" started-at="2022-04-14T22:09:15 EEST" name="setUp" finished-at="2022-04-14T22:09:22 EEST" duration-ms="7099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SuccessfulLoginTest(java.lang.String,java.lang.String)[pri:0, instance:qa.automation.SuccessfulLogin@1ffe63b9]" started-at="2022-04-14T22:09:22 EEST" name="SuccessfulLoginTest" data-provider="csvUserList" finished-at="2022-04-14T22:09:30 EEST" duration-ms="7463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.automation.SuccessfulLogin@1ffe63b9]" started-at="2022-04-14T22:09:30 EEST" name="tearDown" finished-at="2022-04-14T22:09:39 EEST" duration-ms="9493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.automation.SuccessfulLogin -->
+    </test> <!-- SuccessfulLogin -->
+    <test started-at="2022-04-14T22:08:27 EEST" name="UnsuccessfulLogin" finished-at="2022-04-14T22:09:39 EEST" duration-ms="71786">
+      <class name="qa.automation.UnsuccessfulLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.automation.UnsuccessfulLogin@6ac13091]" started-at="2022-04-14T22:08:27 EEST" name="setUp" finished-at="2022-04-14T22:08:45 EEST" duration-ms="17689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UnsuccessfulLoginTest(java.lang.String,java.lang.String)[pri:0, instance:qa.automation.UnsuccessfulLogin@6ac13091]" started-at="2022-04-14T22:08:45 EEST" name="UnsuccessfulLoginTest" data-provider="wrongUsersList" finished-at="2022-04-14T22:08:48 EEST" duration-ms="2746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[unusual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnsuccessfulLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.automation.UnsuccessfulLogin@6ac13091]" started-at="2022-04-14T22:08:48 EEST" name="tearDown" finished-at="2022-04-14T22:08:49 EEST" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.automation.UnsuccessfulLogin@6ac13091]" started-at="2022-04-14T22:08:49 EEST" name="setUp" finished-at="2022-04-14T22:09:01 EEST" duration-ms="11853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UnsuccessfulLoginTest(java.lang.String,java.lang.String)[pri:0, instance:qa.automation.UnsuccessfulLogin@6ac13091]" started-at="2022-04-14T22:09:01 EEST" name="UnsuccessfulLoginTest" data-provider="wrongUsersList" finished-at="2022-04-14T22:09:03 EEST" duration-ms="1829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnsuccessfulLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.automation.UnsuccessfulLogin@6ac13091]" started-at="2022-04-14T22:09:03 EEST" name="tearDown" finished-at="2022-04-14T22:09:17 EEST" duration-ms="14262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.automation.UnsuccessfulLogin@6ac13091]" started-at="2022-04-14T22:09:17 EEST" name="setUp" finished-at="2022-04-14T22:09:24 EEST" duration-ms="6601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UnsuccessfulLoginTest(java.lang.String,java.lang.String)[pri:0, instance:qa.automation.UnsuccessfulLogin@6ac13091]" started-at="2022-04-14T22:09:24 EEST" name="UnsuccessfulLoginTest" data-provider="wrongUsersList" finished-at="2022-04-14T22:09:28 EEST" duration-ms="4089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[unspecified_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[unspecified_password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnsuccessfulLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.automation.UnsuccessfulLogin@6ac13091]" started-at="2022-04-14T22:09:28 EEST" name="tearDown" finished-at="2022-04-14T22:09:39 EEST" duration-ms="11057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.automation.UnsuccessfulLogin -->
+    </test> <!-- UnsuccessfulLogin -->
+  </suite> <!-- Course_Work -->
+</testng-results>

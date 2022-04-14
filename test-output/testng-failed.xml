@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Course_Work]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="CheckOut(failed)">
+    <classes>
+      <class name="qa.automation.CheckOut">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="successfulLoginTest"/>
+        </methods>
+      </class> <!-- qa.automation.CheckOut -->
+    </classes>
+  </test> <!-- CheckOut(failed) -->
+</suite> <!-- Failed suite [Course_Work] -->
